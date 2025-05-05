@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #2563EB;
+  --color-secondary: #FBBF24 ;
+}
+
+*{
+  font-family: outfit;
+}
+
+.font-playfair{
+  font-family: playfair !important;
+}
+
+             /* Additional Styles */
+
+#find_room_button:hover{
+  
+  box-shadow: 0px 0px 25px cyan,0px 0px 5px cyan inset;
+}
+#login_bt:hover{
+  
+  box-shadow: 0px 0px 25px cyan,0px 0px 1px cyan inset;
+}
+#Card_BookNow_bt:hover{
+  box-shadow: 0px 0px 10px cyan,0px 0px 1px cyan inset;
+}
+#View_all_Destination_bt:hover{
+  box-shadow: 0px 0px 10px cyan,0px 0px 1px cyan inset;
+}
+#offers:hover{
+  box-shadow: 0px 0px 10px cyan,0px 0px 1px cyan inset;
+}
+#Amenities_Services:hover{
+  
+  box-shadow: 0px 0px 25px blue,0px 0px 1px cyan inset;
+}
+#img:hover{
+  box-shadow: 0px 0px 25px orange,0px 0px 1px cyan inset;
+
+}
+
+
+
